@@ -1,0 +1,35 @@
+@import url(control.css);
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 9999999999999999999999 !important;
+  background: #fff;
+}
+nav > div {
+  display: grid;
+  align-items: center;
+  padding: 10px 30px;
+}
+.logo {
+  color: var(--primary);
+  cursor: pointer;
+  font-size: larger;
+}
+.navigations {
+  display: flex;
+  column-gap: 20px;
+}
+.navigations > span {
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  column-gap: 10px;
+}
+.buttons > button {
+  cursor: pointer;
+  padding: 10px 20px;
+}

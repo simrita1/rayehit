@@ -1,0 +1,45 @@
+.secondnav {
+  width: 100%;
+}
+.secondnav > form {
+  padding: 30px;
+
+  display: flex;
+  column-gap: 20px;
+}
+.inpgrp {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 5px;
+  background: #f6f6fa;
+}
+.inpgrp > input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  background: #f6f6fa;
+}
+
+.inpgrp > i {
+  font-size: small;
+}
+.inptab {
+  cursor: pointer;
+  background-color: #f3faff;
+  border: 1px solid var(--primary);
+  display: grid;
+  padding: 0px 20px;
+  align-items: center;
+}
+.active {
+  background-color: var(--primary);
+  color: #fff;
+}
+.inptab:hover {
+  background-color: var(--primary);
+  color: #fff;
+}
+.hidden {
+  display: none;
+}

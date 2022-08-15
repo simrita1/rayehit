@@ -1,0 +1,49 @@
+.formsection {
+  padding: 60px 20px;
+  display: flex;
+  column-gap: 80px;
+}
+.sidebar {
+  position: fixed;
+  top: 10%;
+  margin-top: 100px;
+  background-color: #fff;
+  margin-right: 100px;
+}
+.tab {
+  cursor: pointer;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.tab > i {
+  margin-right: 10px;
+  background: linear-gradient(45deg, #5889fc, #564ef4);
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  position: absolute;
+  left: 30%;
+  margin-bottom: 10px;
+}
+.formheader {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.inputgroup {
+  margin-top: 30px;
+}
+.inputbottom {
+  padding: 10px 0px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  outline: none;
+}

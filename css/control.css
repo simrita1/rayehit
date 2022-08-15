@@ -1,0 +1,46 @@
+@import url(./font.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+/* @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css); */
+
+:root {
+  --primary: #654af9;
+  --gradiant-end: #5761a2;
+  --gradiant-start: #83b5e2;
+}
+body,
+html,
+* {
+  -webkit-user-drag: none;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+}
+.primary-outline {
+  border: 1px solid var(--primary);
+  background: none;
+}
+button.support {
+  background: var(--primary);
+  color: white;
+  border: none;
+}
+.primarytext {
+  color: var(--primary);
+}
+.smalltext {
+  font-size: small;
+}
+
+.largetext {
+  font-size: large;
+}
+.primarybtn {
+  background: var(--primary);
+  color: #fff;
+  border: 1px solid #fff;
+}
+.primarybtn:hover {
+  background: #fff;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}

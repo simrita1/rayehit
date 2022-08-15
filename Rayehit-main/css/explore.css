@@ -1,0 +1,12 @@
+@import url(./control.css);
+
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  margin-top: 50px;
+  height: 80%;
+  margin-bottom: 50px;
+}

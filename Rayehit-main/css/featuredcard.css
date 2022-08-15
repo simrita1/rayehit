@@ -1,0 +1,75 @@
+.small {
+  font-size: smaller;
+}
+.featuredcard {
+  width: 25%;
+  height: 550px;
+}
+.propertytype {
+  background: #ffecc1;
+  width: fit-content;
+  padding: 4px;
+  color: #fc9e40;
+}
+.propertytype:last-of-type {
+  background: #fff2f2;
+  width: fit-content;
+  padding: 4px;
+  color: #fb706f;
+}
+.featuredtext {
+  margin-left: 5px;
+  margin-top: 20px;
+}
+.featuredtext > .title {
+  margin: 10px 0px;
+  display: -webkit-box;
+  cursor: pointer;
+  user-select: none;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+  font-size: x-large;
+}
+.featuredcard > .image {
+  height: 350px;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.featuredcard > .image > img {
+  width: 100%;
+  height: 100%;
+}
+/* .others {
+  position: relative;
+  bottom: 0;
+} */
+.others > span > i {
+  margin-right: 2px;
+  color: #999;
+}
+.others > span {
+  margin: 5px;
+}
+.pricesection {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.seemore {
+  overflow-x: hidden;
+  position: absolute;
+  margin-top: 40px;
+  left: 84%;
+  color: #999;
+  cursor: pointer;
+}
+.typerow {
+  display: flex;
+  column-gap: 10px;
+}
